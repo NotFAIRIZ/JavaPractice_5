@@ -23,7 +23,7 @@ abstract class WindowComponent {
         for (int i = 0; i < nestedComponents.size(); i++) {
             if (nestedComponents.get(i).name.equals(name)) {
                 nestedComponents.remove(i);
-                i--; // Adjust index after removal
+                i--;
             }
         }
     }
